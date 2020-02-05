@@ -20,15 +20,13 @@ public class TooLargeTooSmall {
     }
 
     public Integer guess(Integer g) {
-      Integer result = 0;C
-
+      
         if (chosenNum < g) {
-          result = 1;
+          return 1;
         } else if (chosenNum > g){
-          result = -1;
+          return -1;
         } else {
-          result = 0;
+          return 0;
         }
-        return result;
     }
 }
