@@ -1,6 +1,8 @@
 
 /**
- * Write a description of class TooLargeTooSmall here.
+ * This class compares an initial number against a guessed number, and
+ * returns if the initial number is greater than, less than, or equal to the
+ * guessed number
  *
  * @author (Matthew Ascone)
  * @version (2/5/20)
@@ -18,7 +20,7 @@ public class TooLargeTooSmall {
     }
 
     public Integer guess(Integer g) {
-      Integer result = 0;
+      Integer result = 0;C
 
         if (chosenNum < g) {
           result = 1;
